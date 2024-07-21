@@ -1,12 +1,9 @@
 import org.jetbrains.kotlin.config.KotlinCompilerVersion
 import java.io.FileInputStream
 import java.util.Properties
-//import com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsExtension
-//
+
 plugins {
     id("com.android.application")
-//    id("com.google.gms.google-services")
-//    id("com.google.firebase.crashlytics")
     id("com.apollographql.apollo3") version "3.2.1"
     id("kotlin-parcelize")
     id("androidx.room")

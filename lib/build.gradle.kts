@@ -50,7 +50,6 @@ dependencies {
 
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
-//    api(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
 
     implementation(libs.pdfium.android)
 
@@ -73,10 +72,10 @@ dependencies {
 
     api(libs.guava)
     api(libs.exoplayer)
-    // https://developer.android.com/topic/performance/graphics/load-bitmap
+
     api(libs.glide)
     ksp(libs.ksp)
-    // https://github.com/davemorrissey/subsampling-scale-image-view
+
     api(libs.subsampling.scale.image.view.androidx)
 
     implementation(libs.bcprov.jdk15on)
