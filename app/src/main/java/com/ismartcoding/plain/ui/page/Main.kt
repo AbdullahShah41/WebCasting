@@ -136,7 +136,7 @@ fun Main(navControllerState: MutableState<NavHostController?>, onLaunched: () ->
                 RouteName.DARK_THEME to { DarkThemePage(navController) },
                 RouteName.LANGUAGE to { LanguagePage(navController) },
                 RouteName.BACKUP_RESTORE to { BackupRestorePage(navController) },
-                RouteName.ABOUT to { AboutPage(navController) },
+//                RouteName.ABOUT to { AboutPage(navController) },
                 RouteName.WEB_SETTINGS to { WebSettingsPage(navController, mainViewModel) },
                 RouteName.SESSIONS to { SessionsPage(navController) },
                 RouteName.WEB_DEV to { WebDevPage(navController) },

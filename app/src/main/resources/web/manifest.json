@@ -1,6 +1,6 @@
 {
-    "name": "PlainApp",
-    "short_name": "PlainApp",
+    "name": "Screen Mirroring",
+    "short_name": "Screen Mirroring",
     "start_url": "/",
     "display": "standalone",
     "icons": [
@@ -55,8 +55,8 @@
     "related_applications": [
         {
             "platform": "play",
-            "url": "https://play.google.com/store/apps/details?id=com.ismartcoding.plain",
-            "id": "com.ismartcoding.plain"
+            "url": "",
+            "id": ""
         }
     ]
 }
